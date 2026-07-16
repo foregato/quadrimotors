@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais do site */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #111111;
+  color: #FFFFFF;
+  scroll-behavior: smooth;
+}
+
+/* Classes reutilizáveis - evita repetir combinações longas de utilitárias */
+@layer components {
+  /* Botão principal laranja, usado em CTAs (Ver Catálogo, Tenho Interesse, etc) */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-accent text-white font-semibold
+           px-6 py-4 rounded-2xl shadow-lg shadow-accent/20
+           hover:brightness-110 active:scale-95 transition duration-300;
+  }
+
+  /* Botão secundário (contorno), usado como ação alternativa */
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border-2 border-white/20 text-white font-semibold
+           px-6 py-4 rounded-2xl hover:border-accent hover:text-accent
+           active:scale-95 transition duration-300;
+  }
+
+  /* Card padrão usado em produtos e seções de destaque */
+  .card {
+    @apply bg-card rounded-2xl shadow-md shadow-black/30 hover:shadow-accent/10
+           hover:-translate-y-1 transition duration-300;
+  }
+
+  /* Container central com respiro lateral, usado em todas as páginas */
+  .container-app {
+    @apply max-w-7xl mx-auto px-5 sm:px-8;
+  }
+}

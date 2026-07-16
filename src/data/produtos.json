@@ -1,0 +1,105 @@
+[
+  {
+  "id": 1,
+  "nome": "Quadriciclo Infantil Elétrico 1000W",
+  "marca": "Quadrimotors",
+  "modelo": "Infantil 1000W",
+  "ano": 2026,
+  "motor": "Elétrico 1000W",
+  "cilindrada": "Elétrico",
+  "tracao": "Traseira",
+  "combustivel": "Bateria Elétrica",
+  "cor": "Preto com Detalhes Verdes",
+  "quilometragem": "0 km",
+  "estado": "Novo",
+  "preco": "R$ 6.490",
+  "descricao": "Diversão com potência e segurança em cada aventura! Quadriciclo infantil automático com marcha ré, equipado com freios a disco eficientes, faróis e lanterna em LED para ótima visibilidade, além de buzina. Ideal para crianças até 8 anos (suporta até 70kg/80kg). Condições especiais de pagamento: R$ 6.490 à vista ou em até 12x de R$ 599 no cartão de crédito.",
+  "imagens": [
+    "/src/assets/imagens/quadri1000w6490.jpeg",
+    "/src/assets/imagens/quadri1000w6490_2.png"
+  ]
+},
+  {
+    "id": 2,
+    "nome": "Quadriciclo Infantil Elétrico 1000W - Vermelho",
+    "marca": "Quadrimotors",
+    "modelo": "Infantil 1000W",
+    "ano": 2026,
+    "motor": "Elétrico 1000W",
+    "cilindrada": "Elétrico",
+    "tracao": "Traseira",
+    "combustivel": "Bateria Elétrica",
+    "cor": "Vermelho com Detalhes Pretos",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 6.490",
+    "descricao": "Diversão com potência e segurança em cada aventura! Quadriciclo infantil automático com marcha ré, equipado com freios a disco eficientes, faróis e lanterna em LED para ótima visibilidade, além de buzina. Ideal para crianças até 8 anos (suporta até 70kg). Condições especiais de pagamento: R$ 6.490 à vista ou em até 12x de R$ 599 no cartão de crédito.",
+    "imagens": [
+      "/src/assets/imagens/frentevermelho.png",
+      "/src/assets/imagens/quadrivermelho1000w.png"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Quadriciclo Infantil Elétrico 1000W - Branco",
+    "marca": "Quadrimotors",
+    "modelo": "Infantil 1000W",
+    "ano": 2026,
+    "motor": "Elétrico 1000W",
+    "cilindrada": "Elétrico",
+    "tracao": "Traseira",
+    "combustivel": "Bateria Elétrica",
+    "cor": "Branco com Detalhes Amarelos",
+    "quilometragem": "0 km",
+    "estado": "Novo",
+    "preco": "R$ 6.490",
+    "descricao": "Diversão com potência e segurança em cada aventura! Quadriciclo infantil automático com marcha ré, equipado com freios a disco eficientes, faróis e lanterna em LED para ótima visibilidade, além de buzina. Ideal para crianças até 8 anos (suporta até 70kg). Condições especiais de pagamento: R$ 6.490 à vista ou em até 12x de R$ 599 no cartão de crédito.",
+    "imagens": [
+      "/src/assets/imagens/quadribranco1000w.png"
+    ]
+  },
+  {
+  "id": 4,
+  "nome": "Quadriciclo Elétrico 1500W - Preto com Detalhes Laranjas",
+  "marca": "Quadrimotors",
+  "modelo": "1500W",
+  "ano": 2026,
+  "motor": "Elétrico 1500W",
+  "cilindrada": "Elétrico",
+  "tracao": "Traseira",
+  "combustivel": "Bateria Elétrica",
+  "cor": "Preto com Detalhes Laranjas",
+  "quilometragem": "0 km",
+  "estado": "Novo",
+  "preco": "R$ 15.990",
+  "preco_parcelado": "R$ 5.990 + 12x R$ 959 no cartão",
+  "descricao": "Potência que impressiona. Liberdade que inspira! Quadriciclo automático com ré, painel digital em LED, faróis, lanterna e setas em LED, buzina, ideal para todas as idades e com suporte para até 130kg.",
+  "imagens": [
+    "/src/assets/imagens/quadripreto1500w.png"
+  ]
+
+},
+{
+  "id": 5,
+  "nome": "Quadriciclo Rhino 110cc",
+  "marca": "Quadrimotors",
+  "modelo": "Rhino",
+  "ano": 2026,
+  "motor": "4 tempos com ré e partida elétrica",
+  "cilindrada": "110cc",
+  "tracao": "Traseira",
+  "combustivel": "Gasolina",
+  "cor": "A definir",
+  "quilometragem": "0 km",
+  "estado": "Novo",
+  "preco": "R$ 12.900",
+  "descricao": "Quadriciclo Rhino 110cc, motor de 4 tempos com ré e partida elétrica. Equipado com freios a disco, painel em LED com velocímetro e capacidade de carga para até 100kg. Facilitamos em até R$12.900 a vista ou R$2.900 + 12x959 no cartão. Entre em contato pelo WhatsApp",
+  "imagens": [
+    "/src/assets/imagens/rhino110cc12900_0.jpg",
+    "/src/assets/imagens/rhino110cc12900_1.jpg",
+    "/src/assets/imagens/rhino110cc12900_2.jpg",
+    "/src/assets/imagens/rhino110cc12900_3.jpg"
+  ]
+}
+
+]
