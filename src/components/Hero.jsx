@@ -9,7 +9,7 @@ export default function Hero() {
     <section className="relative h-[92vh] min-h-[560px] w-full flex items-end overflow-hidden">
       {/* Foto de fundo do quadriciclo (substitua a URL por uma imagem própria em /src/assets) */}
       <img
-        src="/src/assets/fundos/fundoprincipal.png"
+        src="/fundos/fundoprincipal.png"
         alt="Quadriciclo em trilha de aventura"
         className="absolute inset-0 w-full h-full object-cover"
       />

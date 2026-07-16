@@ -35,8 +35,8 @@
     "preco": "R$ 6.490",
     "descricao": "Diversão com potência e segurança em cada aventura! Quadriciclo infantil automático com marcha ré, equipado com freios a disco eficientes, faróis e lanterna em LED para ótima visibilidade, além de buzina. Ideal para crianças até 8 anos (suporta até 70kg). Condições especiais de pagamento: R$ 6.490 à vista ou em até 12x de R$ 599 no cartão de crédito.",
     "imagens": [
-      "/src/assets/imagens/frentevermelho.png",
-      "/src/assets/imagens/quadrivermelho1000w.png"
+      "/imagens/frentevermelho.png",
+      "/imagens/quadrivermelho1000w.png"
     ]
   },
   {
@@ -55,7 +55,7 @@
     "preco": "R$ 6.490",
     "descricao": "Diversão com potência e segurança em cada aventura! Quadriciclo infantil automático com marcha ré, equipado com freios a disco eficientes, faróis e lanterna em LED para ótima visibilidade, além de buzina. Ideal para crianças até 8 anos (suporta até 70kg). Condições especiais de pagamento: R$ 6.490 à vista ou em até 12x de R$ 599 no cartão de crédito.",
     "imagens": [
-      "/src/assets/imagens/quadribranco1000w.png"
+      "/imagens/quadribranco1000w.png"
     ]
   },
   {
@@ -75,7 +75,7 @@
   "preco_parcelado": "R$ 5.990 + 12x R$ 959 no cartão",
   "descricao": "Potência que impressiona. Liberdade que inspira! Quadriciclo automático com ré, painel digital em LED, faróis, lanterna e setas em LED, buzina, ideal para todas as idades e com suporte para até 130kg.",
   "imagens": [
-    "/src/assets/imagens/quadripreto1500w.png"
+    "/imagens/quadripreto1500w.png"
   ]
 
 },
@@ -95,10 +95,10 @@
   "preco": "R$ 12.900",
   "descricao": "Quadriciclo Rhino 110cc, motor de 4 tempos com ré e partida elétrica. Equipado com freios a disco, painel em LED com velocímetro e capacidade de carga para até 100kg. Facilitamos em até R$12.900 a vista ou R$2.900 + 12x959 no cartão. Entre em contato pelo WhatsApp",
   "imagens": [
-    "/src/assets/imagens/rhino110cc12900_0.jpg",
-    "/src/assets/imagens/rhino110cc12900_1.jpg",
-    "/src/assets/imagens/rhino110cc12900_2.jpg",
-    "/src/assets/imagens/rhino110cc12900_3.jpg"
+    "/imagens/rhino110cc12900_0.jpg",
+    "/imagens/rhino110cc12900_1.jpg",
+    "/imagens/rhino110cc12900_2.jpg",
+    "/imagens/rhino110cc12900_3.jpg"
   ]
 }
 
