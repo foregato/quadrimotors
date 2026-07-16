@@ -11,7 +11,7 @@ export default function Sobre() {
   return (
     <section className="container-app pt-28 pb-20">
       <img
-        src="src/assets/fundos/fundoprincipal.png"
+        src="/fundos/fundoprincipal.png"
         alt="Fachada da Quadrimotors & Cia"
         className="w-full aspect-video object-cover rounded-2xl"
       />
