@@ -103,7 +103,7 @@
 },
 {
   "id": 6,
-  "nome": "Quadriciclo Dakar 250 Vermelho",
+  "nome": "Quadriciclo Dakar 250cc Vermelho",
   "marca": "Buggy & Cia",
   "modelo": "Dakar 250",
   "ano": 2026,
@@ -124,12 +124,12 @@
 },
 {
   "id": 7,
-  "nome": "Quadriciclo Dakar 200 Vermelho",
+  "nome": "Quadriciclo Dakar 200cc Vermelho",
   "marca": "Fun Motors",
   "modelo": "Dakar 200",
   "ano": 2026,
   "motor": "Elétrico, 4 tempos, refrigerado a ar",
-  "cilindrada": "117,3cc",
+  "cilindrada": "200cc",
   "tracao": "4x2 (Traseira)",
   "combustivel": "Gasolina",
   "cor": "Vermelho",
