@@ -121,6 +121,27 @@
     "/imagens/dakar250cc_1.jpeg",
     "/imagens/dakar250cc_2.jpeg"
   ]
+},
+{
+  "id": 7,
+  "nome": "Quadriciclo Dakar 200",
+  "marca": "Fun Motors",
+  "modelo": "Dakar 200",
+  "ano": 2026,
+  "motor": "Elétrico, 4 tempos, refrigerado a ar",
+  "cilindrada": "117,3cc",
+  "tracao": "4x2 (Traseira)",
+  "combustivel": "Gasolina",
+  "cor": "Vermelho",
+  "quilometragem": "0 km",
+  "estado": "Novo",
+  "preco": "R$ 25.900,00",
+  "descricao": "Quadriciclo equipado com motor monocilíndrico 4 tempos refrigerado a ar de 117,3cc, potência de 10,20 cv e torque de 11 N.m. Alimentação por carburador, transmissão automática CVT com posições N, R e D e partida elétrica. Atinge velocidade máxima de 60 km/h. Utiliza óleo do motor 20W-50 (API SN e JASO MB ou MA2) e óleo de câmbio 85W-90 GL-5. Conta com freios hidráulicos a disco, sendo dois discos na dianteira e um disco na traseira. Suspensão dianteira independente com bandejas em duplo A e amortecedores ajustáveis, além de suspensão traseira monoshock com eixo rígido e amortecedor ajustável. Pneus dianteiros 22x10.00-10 e traseiros 23x7.00-10, rodas aro 10. Dimensões de 170 x 105,5 x 109,5 cm (C x L x A), peso de 188 kg e capacidade de carga de 150 kg. Possui bateria 12V 7Ah, limitador mecânico de velocidade, botão corta-corrente e faróis e lanternas em LED.",
+  "imagens": [
+    "/imagens/quadriciclo117cc_0.jpeg",
+    "/imagens/quadriciclo117cc_1.jpeg",
+    "/imagens/quadriciclo117cc_2.jpeg"
+  ]
 }
 
 ]
