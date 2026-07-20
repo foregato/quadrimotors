@@ -183,18 +183,13 @@
   "quilometragem": "Usado",
   "estado": "Usado",
   "preco": "R$ 15.900,00",
-  "descricao": "Quadriciclo vermelho importado Quadrimotors usado. Motor monocilíndrico 125cc, 4 tempos, refrigerado a ar. Torque máximo de 8.8N.m/5000r/min e potência máxima de 7.7cv/7500r/min. Partida elétrica, carburador PZ22 e ignição CDI. Velocidade máxima de 55 km/h. Transmissão automática com frente, neutro e ré (CVT), movimentação por corrente. Quadro em aço de alta resistência, suspensão dianteira com amortecedor duplo independente, suspensão traseira com amortecedor simples (monoshock) e freios a disco hidráulico ventilado na dianteira e traseira. Suporta até 150 kg. Possui engate, faróis de LED e retrovisores. Condição de pagamento: entrada de R$ 5.900,00 + 12x de R$ 959,00 no cartão.",
+  "descricao": "Quadriciclo vermelho importado Quadrimotors usado. Motor monocilíndrico 125cc, 4 tempos, refrigerado a ar. Torque máximo de 8.8N.m/5000r/min e potência máxima de 7.7cv/7500r/min. Partida elétrica, carburador PZ22 e ignição CDI. Velocidade máxima de 55 km/h. Transmissão automática com frente, neutro e ré, movimentação por corrente. Quadro em aço de alta resistência, suspensão dianteira com amortecedor duplo independente, suspensão traseira com amortecedor simples (monoshock) e freios a disco hidráulico ventilado na dianteira e traseira. Faróis de LED e retrovisores. Medidas: comprimento de 1,75 m, largura de 1,03 m, altura de 1,04 m (até o guidão) e altura do assento de 78 cm. Condição de pagamento: entrada de R$ 5.900,00 + 12x de R$ 959,00 no cartão.",
   "imagens": [
-    "/imagens/quadriciclo150cc_0.jpeg",
-    "/imagens/quadriciclo150cc_1.jpeg",
-    "/imagens/quadriciclo150cc_2.jpeg"
-  ],
-  "medidas": {
-    "largura": "1,03 m",
-    "altura": "1,04 m (até o guidão)",
-    "alturaAssento": "78 cm",
-    "comprimento": "1,75 m"
-  }
+    "/imagens/mxf125ccattack_0.jpeg",
+    "/imagens/mxf125ccattack_1.jpeg",
+    "/imagens/mxf125ccattack_2.jpeg",
+    "/imagens/mxf125ccattack_3.jpeg",
+    "/imagens/medidas125ccattack.jpeg"
+  ]
 }
-
 ]
