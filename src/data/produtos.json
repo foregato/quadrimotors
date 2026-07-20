@@ -168,6 +168,33 @@
     "/imagens/vermelhoimports_3.jpeg",
     "/imagens/medidasvermelhoimports.jpeg"
   ]
+}, 
+{
+  "id": 9,
+  "nome": "Quadriciclo Vermelho Importado",
+  "marca": "Quadrimotors",
+  "modelo": "Importado",
+  "ano": 2026,
+  "motor": "125cc - 4 tempos - monocilíndrico a gasolina",
+  "cilindrada": "125cc",
+  "tracao": "4x2 (Traseira)",
+  "combustivel": "Gasolina",
+  "cor": "Vermelho",
+  "quilometragem": "Usado",
+  "estado": "Usado",
+  "preco": "R$ 15.900,00",
+  "descricao": "Quadriciclo vermelho importado Quadrimotors usado. Motor monocilíndrico 125cc, 4 tempos, refrigerado a ar. Torque máximo de 8.8N.m/5000r/min e potência máxima de 7.7cv/7500r/min. Partida elétrica, carburador PZ22 e ignição CDI. Velocidade máxima de 55 km/h. Transmissão automática com frente, neutro e ré (CVT), movimentação por corrente. Quadro em aço de alta resistência, suspensão dianteira com amortecedor duplo independente, suspensão traseira com amortecedor simples (monoshock) e freios a disco hidráulico ventilado na dianteira e traseira. Suporta até 150 kg. Possui engate, faróis de LED e retrovisores. Condição de pagamento: entrada de R$ 5.900,00 + 12x de R$ 959,00 no cartão.",
+  "imagens": [
+    "/imagens/quadriciclo150cc_0.jpeg",
+    "/imagens/quadriciclo150cc_1.jpeg",
+    "/imagens/quadriciclo150cc_2.jpeg"
+  ],
+  "medidas": {
+    "largura": "1,03 m",
+    "altura": "1,04 m (até o guidão)",
+    "alturaAssento": "78 cm",
+    "comprimento": "1,75 m"
+  }
 }
 
 ]
