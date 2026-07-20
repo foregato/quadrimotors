@@ -171,7 +171,7 @@
 }, 
 {
   "id": 9,
-  "nome": "Quadriciclo Vermelho Importado",
+  "nome": "Quadriciclo 125cc Attack",
   "marca": "Quadrimotors",
   "modelo": "Importado",
   "ano": 2026,
@@ -180,10 +180,10 @@
   "tracao": "4x2 (Traseira)",
   "combustivel": "Gasolina",
   "cor": "Vermelho",
-  "quilometragem": "Usado",
-  "estado": "Usado",
-  "preco": "R$ 15.900,00",
-  "descricao": "Quadriciclo vermelho importado Quadrimotors usado. Motor monocilíndrico 125cc, 4 tempos, refrigerado a ar. Torque máximo de 8.8N.m/5000r/min e potência máxima de 7.7cv/7500r/min. Partida elétrica, carburador PZ22 e ignição CDI. Velocidade máxima de 55 km/h. Transmissão automática com frente, neutro e ré, movimentação por corrente. Quadro em aço de alta resistência, suspensão dianteira com amortecedor duplo independente, suspensão traseira com amortecedor simples (monoshock) e freios a disco hidráulico ventilado na dianteira e traseira. Faróis de LED e retrovisores. Medidas: comprimento de 1,75 m, largura de 1,03 m, altura de 1,04 m (até o guidão) e altura do assento de 78 cm. Condição de pagamento: entrada de R$ 5.900,00 + 12x de R$ 959,00 no cartão.",
+  "quilometragem": "0 km",
+  "estado": "Novo",
+  "preco": "R$ 0.000,00",
+  "descricao": "O veículo combina engenharia aerodinâmica e acabamento refinado para otimizar a estabilidade, a segurança e a eficiência dinâmica em diferentes condições de rodagem. O conjunto óptico com iluminação full-LED entrega alta densidade luminosa e baixo consumo de energia, enquanto os retrovisores externos possuem ajuste eletromecânico, repetidores de direção integrados e geometria desenhada para minimizar o atrito com o ar e o ruído aeroacústico.",
   "imagens": [
     "/imagens/mxf125ccattack_0.jpeg",
     "/imagens/mxf125ccattack_1.jpeg",
