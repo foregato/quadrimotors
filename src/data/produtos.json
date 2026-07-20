@@ -191,5 +191,28 @@
     "/imagens/mxf125ccattack_3.jpeg",
     "/imagens/medidas125ccattack.jpeg"
   ]
+},
+{
+  "id": 10,
+  "nome": "Mini Buggy Elétrico 1200W Amarelo",
+  "marca": "Quadrimotors",
+  "modelo": "Shark",
+  "ano": 2026,
+  "motor": "Elétrico 1200W",
+  "cilindrada": "Não se aplica",
+  "tracao": "4x2 (Traseira)",
+  "combustivel": "Elétrico",
+  "cor": "Amarelo",
+  "quilometragem": "0 km",
+  "estado": "Novo",
+  "preco": "R$ 12.900,00",
+  "descricao": "UTV Mini Buggy Shark 100% elétrico, ideal para lazer e aventura. Motor elétrico de 1200W, proporcionando maior economia e zero emissões. Transmissão automática com ré elétrica, tração 4x2 e freios a disco. Equipado com pneus de borracha radial, estrutura reforçada para maior segurança e resistência, oferecendo estabilidade e proteção durante o uso. Desenvolvido para proporcionar conforto e excelente desempenho em diferentes terrenos. Suporta crianças de até 80 kg. Medidas não informadas. Condição de pagamento: entrada de R$ 2.990,00 + 12x de R$ 959,00 no cartão.",
+  "imagens": [
+    "/imagens/minibuggyeletrico_0.jpeg",
+    "/imagens/minibuggyeletrico_1.jpeg",
+    "/imagens/minibuggyeletrico_2.jpeg",
+    "/imagens/minibuggyeletrico_3.jpeg",
+    "/imagens/medidasminibuggy.jpeg"
+  ]
 }
 ]
