@@ -169,21 +169,22 @@
     "/imagens/medidasvermelhoimports.jpeg"
   ]
 }, 
-{
+
+  {
   "id": 9,
-  "nome": "Quadriciclo 125cc Attack",
+  "nome": "Quadriciclo MXF 125cc Attack",
   "marca": "Quadrimotors",
-  "modelo": "Importado",
+  "modelo": "EFI",
   "ano": 2026,
-  "motor": "125cc - 4 tempos - monocilíndrico a gasolina",
-  "cilindrada": "125cc",
+  "motor": "Monocilíndrico com injeção eletrônica",
+  "cilindrada": "Não informado",
   "tracao": "4x2 (Traseira)",
   "combustivel": "Gasolina",
-  "cor": "Vermelho",
+  "cor": "Preto",
   "quilometragem": "0 km",
   "estado": "Novo",
-  "preco": "R$ 0.000,00",
-  "descricao": "O veículo combina engenharia aerodinâmica e acabamento refinado para otimizar a estabilidade, a segurança e a eficiência dinâmica em diferentes condições de rodagem. O conjunto óptico com iluminação full-LED entrega alta densidade luminosa e baixo consumo de energia, enquanto os retrovisores externos possuem ajuste eletromecânico, repetidores de direção integrados e geometria desenhada para minimizar o atrito com o ar e o ruído aeroacústico.",
+  "preco": "R$ 18.900,00",
+  "descricao": "Quadriciclo Quadrimotors 0 km equipado com sistema de injeção eletrônica, proporcionando maior desempenho e eficiência. Possui transmissão automática com ré, freios a disco nas quatro rodas, painel Full LED, alarme com partida à distância, retrovisores, bagageiros dianteiro e traseiro e estrutura reforçada para uso em diversos tipos de terreno. Desenvolvido para oferecer qualidade premium, tecnologia de ponta e excelente desempenho em aventuras. Condição de pagamento: entrada de R$ 8.900,00 + 12x de R$ 959,00 no cartão.",
   "imagens": [
     "/imagens/mxf125ccattack_0.jpeg",
     "/imagens/mxf125ccattack_1.jpeg",
