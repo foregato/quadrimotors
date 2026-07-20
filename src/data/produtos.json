@@ -144,12 +144,12 @@
   ]
 },
 {
-  "id": 8,
-  "nome": "Quadriciclo Vermelho Importado 150cc",
+  "id": 7,
+  "nome": "Quadriciclo Vermelho Importado",
   "marca": "Quadrimotors",
-  "modelo": "Importado 150cc",
+  "modelo": "Importado",
   "ano": 2026,
-  "motor": "4 tempos, automático CVT com ré",
+  "motor": "Automático CVT com ré",
   "cilindrada": "150cc",
   "tracao": "4x2 (Traseira)",
   "combustivel": "Gasolina",
@@ -157,20 +157,7 @@
   "quilometragem": "Usado",
   "estado": "Usado",
   "preco": "R$ 15.900,00",
-  "descricao": "Quadriciclo importado 150cc usado, transmissão automática CVT com marcha à ré, capacidade de carga de até 150 kg e equipado com engate para reboque.",
-  "medidas": {
-    "largura": "1,03 m",
-    "altura": "1,04 m até o guidão",
-    "alturaBanco": "78 cm",
-    "comprimento": "1,75 m"
-  },
-  "capacidadeCarga": "150 kg",
-  "transmissao": "Automático CVT com ré",
-  "engate": "Sim",
-  "condicoesPagamento": {
-    "entrada": "R$ 5.900,00",
-    "parcelamento": "12x de R$ 959,00 no cartão"
-  },
+  "descricao": "Quadriciclo vermelho importado Quadrimotors usado, 150cc. Medidas: largura 1,03 m, altura 1,04 m até o guidão, 78 cm até o banco e comprimento 1,75 m. Suporta até 150 kg. Automático com ré (CVT). Com engate. Condição de pagamento: entrada de R$ 5.900,00 + 12x de R$ 959,00 no cartão.",
   "imagens": [
     "/imagens/quadriciclo150cc_0.jpeg",
     "/imagens/quadriciclo150cc_1.jpeg",
