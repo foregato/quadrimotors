@@ -215,5 +215,27 @@
     "/imagens/minibuggyeletrico_3.jpeg",
     "/imagens/medidasminibuggy.jpeg"
   ]
+},
+{
+  "id": 11,
+  "nome": "Flash 49cc - Preto e Amarelo",
+  "marca": "Fun Motors",
+  "modelo": "Flash 49",
+  "ano": 2026,
+  "motor": "Monocilíndrico, 2 tempos, refrigerado a ar",
+  "cilindrada": "49 cc",
+  "tracao": "4x2 (2WD)",
+  "combustivel": "Gasolina + Óleo 2 tempos (25:1)",
+  "cor": "Preto com Detalhes Amarelos",
+  "quilometragem": "0 km",
+  "estado": "Novo",
+  "preco": "R$ 6.490,00",
+  "descricao": "Mini quadriciclo off-road indicado para crianças de 3 a 6 anos. Possui motor 49cc de 3,5 CV, atingindo até 40 km/h, câmbio automático e transmissão 4x2. Equipado com partida elétrica e mecânica, freios a disco dianteiro e traseiro a cabo, racks dianteiro e traseiro (suporta até 10 kg total) e amortecedores hidráulicos. Para a segurança dos pais e da criança, conta com limitador de velocidade, cordão de segurança e botão corta-corrente. Tanque com capacidade de 1,5L e peso suportado de até 21 kg. Acompanha kit de ferramentas e manual do usuário.",
+  "imagens": [
+    "/imagens/flash49cc_0.jpeg",
+    "/imagens/flash49cc_1.jpeg",
+    "/imagens/flash49cc_2.jpeg",
+    "/imagens/medidaflash49cc_3.jpeg"
+  ]
 }
 ]
