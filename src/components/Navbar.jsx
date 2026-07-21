@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
-import logo from '../assets/fundonovoatualizado.png'
+import logo from '../assets/fundopretologobranca.png'
 
 // Itens do menu - para adicionar uma nova página, basta incluir aqui
 const links = [
