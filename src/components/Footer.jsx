@@ -16,7 +16,7 @@ export default function Footer() {
             <Phone size={18} /> (19) 99407-5246
           </a>
           <span className="hidden sm:flex items-center gap-2">
-            <MapPin size={18} /> São Paulo, SP
+            <MapPin size={18} /> Campinas, SP
           </span>
         </div>
       </div>
