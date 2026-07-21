@@ -1,22 +1,24 @@
 [
   {
-  "id": 12,
-  "nome": "Quadriciclo Infantil Elétrico 1000W",
+  "id": 1,
+  "nome": "Quadriciclo 150cc Vermelho (Usado)",
   "marca": "Quadrimotors",
-  "modelo": "Infantil 1000W",
+  "modelo": "150cc CVT",
   "ano": 2026,
-  "motor": "Elétrico 1000W",
-  "cilindrada": "Elétrico",
-  "tracao": "Traseira",
-  "combustivel": "Bateria Elétrica",
-  "cor": "Preto com Detalhes Verdes",
-  "quilometragem": "0 km",
-  "estado": "Novo",
-  "preco": "R$ 6.490",
-  "descricao": "Diversão com potência e segurança em cada aventura! Quadriciclo infantil automático com marcha ré, equipado com freios a disco eficientes, faróis e lanterna em LED para ótima visibilidade, além de buzina. Ideal para crianças até 8 anos (suporta até 70kg/80kg). Condições especiais de pagamento: R$ 6.490 à vista ou em até 12x de R$ 599 no cartão de crédito.",
+  "motor": "Monocilíndrico 4 tempos",
+  "cilindrada": "150 cc",
+  "tracao": "4x2 (2WD)",
+  "combustivel": "Gasolina",
+  "cor": "Vermelho e Preto",
+  "quilometragem": "Consulte",
+  "estado": "Usado",
+  "preco": "R$ 15.900,00",
+  "descricao": "Quadriciclo 150cc usado, equipado com câmbio automático CVT com marcha à ré, proporcionando mais praticidade e conforto na condução. Suporta até 150 kg, oferecendo maior resistência e segurança para diferentes tipos de terreno. Conta com engate para reboque, ideal para pequenas cargas e atividades no campo. Possui faróis de LED, retrovisores e visual esportivo. Pronto para novas aventuras em trilhas e uso recreativo.",
   "imagens": [
-    "/imagens/quadri1000w6490.jpeg",
-    "/imagens/quadri1000w6490_2.png"
+    "/imagens/vermelho150cc_0.jpeg",
+    "/imagens/vermelho150cc_1.jpeg",
+    "/imagens/vermelho150cc_2.jpeg",
+    "/imagens/medidasvermelho150cc.jpeg"
   ]
 },
   {
@@ -238,26 +240,24 @@
     "/imagens/medidaflash49cc.jpeg"
   ]
 },
-{
-  "id": 1,
-  "nome": "Quadriciclo 150cc Vermelho (Usado)",
+ {
+  "id": 12,
+  "nome": "Quadriciclo Infantil Elétrico 1000W",
   "marca": "Quadrimotors",
-  "modelo": "150cc CVT",
+  "modelo": "Infantil 1000W",
   "ano": 2026,
-  "motor": "Monocilíndrico 4 tempos",
-  "cilindrada": "150 cc",
-  "tracao": "4x2 (2WD)",
-  "combustivel": "Gasolina",
-  "cor": "Vermelho e Preto",
-  "quilometragem": "Consulte",
-  "estado": "Usado",
-  "preco": "R$ 15.900,00",
-  "descricao": "Quadriciclo 150cc usado, equipado com câmbio automático CVT com marcha à ré, proporcionando mais praticidade e conforto na condução. Suporta até 150 kg, oferecendo maior resistência e segurança para diferentes tipos de terreno. Conta com engate para reboque, ideal para pequenas cargas e atividades no campo. Possui faróis de LED, retrovisores e visual esportivo. Pronto para novas aventuras em trilhas e uso recreativo.",
+  "motor": "Elétrico 1000W",
+  "cilindrada": "Elétrico",
+  "tracao": "Traseira",
+  "combustivel": "Bateria Elétrica",
+  "cor": "Preto com Detalhes Verdes",
+  "quilometragem": "0 km",
+  "estado": "Novo",
+  "preco": "R$ 6.490",
+  "descricao": "Diversão com potência e segurança em cada aventura! Quadriciclo infantil automático com marcha ré, equipado com freios a disco eficientes, faróis e lanterna em LED para ótima visibilidade, além de buzina. Ideal para crianças até 8 anos (suporta até 70kg/80kg). Condições especiais de pagamento: R$ 6.490 à vista ou em até 12x de R$ 599 no cartão de crédito.",
   "imagens": [
-    "/imagens/vermelho150cc_0.jpeg",
-    "/imagens/vermelho150cc_1.jpeg",
-    "/imagens/vermelho150cc_2.jpeg",
-    "/imagens/medidasvermelho150cc.jpeg"
+    "/imagens/quadri1000w6490.jpeg",
+    "/imagens/quadri1000w6490_2.png"
   ]
-}
+ }
 ]
