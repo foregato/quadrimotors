@@ -11,7 +11,7 @@ export default function ProductCard({ produto }) {
       transition={{ duration: 0.4 }}
       className="card overflow-hidden flex flex-col relative"   // ← relative adicionado
     >
-      {/* Badge "Oportunidade" - aparece apenas nos produtos que tiverem o campo "badge" */}
+      {/* Badge "OFERTA" - aparece apenas nos produtos que tiverem o campo "badge" */}
       {produto.badge && (
         <div className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-4 py-1.5 rounded-md shadow-md z-10">
           {produto.badge}
