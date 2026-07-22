@@ -260,7 +260,7 @@
  },
  {
   "id": 13,
-  "nome": "Mini Moto 125cc Infanto-Juvenil",
+  "nome": "Mini Moto 125cc Verde",
   "marca": "Quadrimotors",
   "modelo": "Mini Moto 125cc",
   "ano": 2026,
@@ -281,8 +281,8 @@
   ]
 },
 {
-  "id": 13,
-  "nome": "Mini Moto 125cc Infanto-Juvenil",
+  "id": 14,
+  "nome": "Mini Moto 125cc Verde e Vermelho",
   "marca": "Quadrimotors",
   "modelo": "Mini Moto 125cc",
   "ano": 2026,
@@ -300,5 +300,17 @@
     "/imagens/minimoto125vermelho_1.jpeg",
     "/imagens/medidasminimoto125vermelho.jpeg"
   ]
+},
+{
+  "id": 13,
+  "nome": "Mini Moto 125cc Verde e Vermelho",
+  ...
+  "badge": "Oportunidade"     // ← só nesses 2
+},
+{
+  "id": 14,
+  "nome": "Mini Moto 125cc Verde",
+  ...
+  "badge": "Oportunidade"     // ← só nesses 2
 }
 ]
