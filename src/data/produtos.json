@@ -1,7 +1,7 @@
 [
  {
   "id": 1,
-  "nome": "Mini Moto 125cc Braco e Verde",
+  "nome": "Mini Moto 125cc 12x Sem Juros",
   "marca": "Quadrimotors",
   "modelo": "Mini Moto 125cc",
   "ano": 2026,
@@ -15,16 +15,14 @@
   "preco": "R$ 12.990,00",
   "descricao": "Mini Moto 125cc modelo infanto-juvenil, ideal para crianças e adolescentes. Equipada com partida elétrica e pedal de partida (manual), motor 4 tempos semi-automático, freio a disco duplo, suspensão dianteira invertida e suspensão traseira Prolink roscado, proporcionando mais conforto e estabilidade. Atinge velocidade de até 60 km/h e suporta pilotos de até 100 kg. Condição especial: R$ 12.990,00 ou em até 12x sem juros no cartão.",
   "imagens": [
-    "/imagens/minimoto125verde_0.jpeg",
-    "/imagens/minimoto125verde_1.jpeg",
-    "/imagens/minimoto125verde_2.jpeg",
-    "/imagens/medidasminimoto125verde.jpeg"
+    "/imagens/brancoverdemoto_0.jpeg",
+    "/imagens/medidabrancoverde.jpeg"
   ],
   "badge": "Oportunidade"
 },
 {
   "id": 2,
-  "nome": "Mini Moto 125cc Preto e Vermelho",
+  "nome": "Mini Moto 125cc 12x Sem Juros",
   "marca": "Quadrimotors",
   "modelo": "Mini Moto 125cc",
   "ano": 2026,

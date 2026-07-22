@@ -3,18 +3,28 @@ import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 import ButtonWhatsapp from './ButtonWhatsapp'
 
-// Seção de abertura da Home - foto grande + overlay + título + CTAs
+// Import da logo
+import logo from '../assets/logopebsf.png'
+
 export default function Hero() {
   return (
     <section className="relative h-[92vh] min-h-[560px] w-full flex items-end overflow-hidden">
-      {/* Foto de fundo do quadriciclo (substitua a URL por uma imagem própria em /src/assets) */}
+      {/* Foto de fundo do quadriciclo (imagem do mundo) */}
       <img
         src="/fundos/fundoprincipal.png"
         alt="Quadriciclo em trilha de aventura"
         className="absolute inset-0 w-full h-full object-cover"
       />
+      
       {/* Overlay escuro para dar contraste ao texto */}
       <div className="absolute inset-0 bg-gradient-to-t from-bgdark via-bgdark/60 to-bgdark/20" />
+
+      {/* Logo da marca sobre a imagem */}
+      <img
+        src={logo}
+        alt="Quadrimotors & Cia"
+        className="absolute top-8 left-8 md:top-12 md:left-12 h-20 md:h-24 z-10 drop-shadow-lg"
+      />
 
       <motion.div
         initial={{ opacity: 0, y: 30 }}
