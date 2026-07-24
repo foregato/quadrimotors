@@ -1,18 +1,25 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
-// Card vertical de um quadriciclo - usado no Catálogo e na Home ("últimos cadastrados")
+// Card vertical de um quadriciclo - usado no Catálogo e na Home
 export default function ProductCard({ produto }) {
+  const isVendido = produto.vendido === true || produto.vendido === "true"
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.4 }}
-      className="card overflow-hidden flex flex-col relative"   // ← relative adicionado
+      className="card overflow-hidden flex flex-col relative"
     >
-      {/* Badge "OFERTA" - aparece apenas nos produtos que tiverem o campo "badge" */}
-      {produto.badge && (
+      {/* Badge de VENDIDO - prioridade máxima */}
+      {isVendido ? (
+        <div className="absolute top-3 left-3 bg-red-600 text-white text-sm font-bold px-5 py-2 rounded-md shadow-md z-20">
+          VENDIDO
+        </div>
+      ) : produto.badge && (
+        /* Badge original (Oportunidade, etc) */
         <div className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-4 py-1.5 rounded-md shadow-md z-10">
           {produto.badge}
         </div>
@@ -22,7 +29,9 @@ export default function ProductCard({ produto }) {
         <img
           src={produto.imagens[0]}
           alt={produto.nome}
-          className="w-full aspect-[4/3] object-cover"
+          className={`w-full aspect-[4/3] object-cover transition-all duration-300 ${
+            isVendido ? 'opacity-75' : ''
+          }`}
         />
       </Link>
 
@@ -43,6 +52,12 @@ export default function ProductCard({ produto }) {
         >
           Ver detalhes
         </Link>
+
+        {isVendido && (
+          <p className="text-red-400 text-xs text-center mt-1">
+            Produto vendido • Sob encomenda
+          </p>
+        )}
       </div>
     </motion.div>
   )

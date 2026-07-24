@@ -41,6 +41,7 @@
     "/imagens/medidasminimoto125vermelho.jpeg"
   ],
   "badge": "Oportunidade"
+  
 },
   {
     "id": 3,
@@ -238,7 +239,9 @@
     "/imagens/flash49cc_1.jpeg",
     "/imagens/flash49cc_2.jpeg",
     "/imagens/medidaflash49cc.jpeg"
-  ]
+  ],
+  "badge": "VENDIDO",
+  "vendido": true
 },
  {
   "id": 12,
