@@ -1,5 +1,6 @@
 import { ShieldCheck, Headset, Lock } from 'lucide-react'
 import { motion } from 'framer-motion'
+import SEO from '../components/SEO'
 import Hero from '../components/Hero'
 import ProductCard from '../components/ProductCard'
 import ButtonWhatsapp from '../components/ButtonWhatsapp'
@@ -18,6 +19,13 @@ export default function Home() {
 
   return (
     <>
+      {/* Adicionamos a otimização de SEO para a Página Inicial */}
+      <SEO 
+        title="Quadriciclos Novos e Usados em Campinas"
+        description="Encontre os melhores quadriciclos novos e usados na Quadrimotors & Cia. Procedência garantida, atendimento especializado e compra segura em Campinas e região."
+        canonical="https://quadrimotorsecia.com.br/"
+      />
+
       <Hero />
 
       {/* Seção "Por que escolher a Quadrimotors?" */}

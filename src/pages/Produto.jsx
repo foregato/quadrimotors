@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
+import SEO from '../components/SEO'
 import Carousel from '../components/Carousel'
 import ButtonWhatsapp from '../components/ButtonWhatsapp'
 import produtos from '../data/produtos.json'
@@ -21,78 +22,94 @@ export default function Produto() {
   const { id } = useParams()
   const produto = produtos.find((p) => String(p.id) === id)
 
+  // Caso o produto não seja encontrado pelo ID
   if (!produto) {
     return (
-      <section className="container-app pt-32 pb-20 text-center">
-        <h1 className="text-2xl font-bold mb-4">Quadriciclo não encontrado</h1>
-        <Link to="/catalogo" className="btn-primary inline-flex">Voltar ao catálogo</Link>
-      </section>
+      <>
+        <SEO 
+          title="Produto não encontrado" 
+          description="O quadriciclo procurado não foi encontrado em nosso catálogo."
+        />
+        <section className="container-app pt-32 pb-20 text-center">
+          <h1 className="text-2xl font-bold mb-4">Quadriciclo não encontrado</h1>
+          <Link to="/catalogo" className="btn-primary inline-flex">Voltar ao catálogo</Link>
+        </section>
+      </>
     )
   }
 
   const isVendido = produto.vendido === true || produto.vendido === "true"
 
   return (
-    <section className="container-app pt-28 pb-20">
-      <Carousel imagens={produto.imagens} />
+    <>
+      {/* SEO Dinâmico: Preenche as tags do Google com os dados deste quadriciclo específico */}
+      <SEO 
+        title={produto.nome}
+        description={`${produto.nome} (${produto.estado}) por ${produto.preco} na Quadrimotors & Cia em Campinas. ${produto.descricao ? produto.descricao.slice(0, 100) : ''}`}
+        canonical={`https://quadrimotorsecia.com.br/produto/${produto.id}`}
+      />
 
-      <div className="mt-8 flex flex-col md:flex-row md:items-start md:justify-between gap-4">
-        <div>
-          <h1 className="text-3xl font-bold">{produto.nome}</h1>
-          
-          <div className="flex items-center gap-3 mt-2">
-            <span className={`inline-block text-xs font-semibold px-3 py-1 rounded-full
-              ${produto.estado === 'Novo' ? 'bg-accent/20 text-accent' : 'bg-white/10 text-secondary'}`}>
-              {produto.estado}
-            </span>
+      <section className="container-app pt-28 pb-20">
+        <Carousel imagens={produto.imagens} />
+
+        <div className="mt-8 flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+          <div>
+            <h1 className="text-3xl font-bold">{produto.nome}</h1>
             
-            {isVendido && (
-              <span className="inline-block text-sm font-bold px-5 py-1.5 bg-red-600 text-white rounded-full shadow-md">
-                VENDIDO
+            <div className="flex items-center gap-3 mt-2">
+              <span className={`inline-block text-xs font-semibold px-3 py-1 rounded-full
+                ${produto.estado === 'Novo' ? 'bg-accent/20 text-accent' : 'bg-white/10 text-secondary'}`}>
+                {produto.estado}
               </span>
-            )}
+              
+              {isVendido && (
+                <span className="inline-block text-sm font-bold px-5 py-1.5 bg-red-600 text-white rounded-full shadow-md">
+                  VENDIDO
+                </span>
+              )}
+            </div>
           </div>
+          <p className="text-accent font-extrabold text-3xl">{produto.preco}</p>
         </div>
-        <p className="text-accent font-extrabold text-3xl">{produto.preco}</p>
-      </div>
 
-      {/* Mensagem clara para produto vendido */}
-      {isVendido && (
-        <div className="mt-6 p-5 bg-red-600/10 border border-red-600/30 rounded-2xl">
-          <p className="text-red-400 font-semibold text-lg">
-            Este modelo já foi vendido.
-          </p>
-          <p className="text-secondary mt-1">
-            Podemos trazer uma unidade igual ou similar sob encomenda. 
-            Entre em contato para mais informações e prazo de entrega.
-          </p>
-        </div>
-      )}
-
-      {/* Tabela de especificações */}
-      <div className="card mt-8 p-6 grid grid-cols-2 sm:grid-cols-3 gap-y-5 gap-x-4">
-        {especificacoes.map(({ label, chave }) => (
-          <div key={chave}>
-            <p className="text-secondary text-xs uppercase tracking-wide">{label}</p>
-            <p className="font-medium mt-1">{produto[chave]}</p>
+        {/* Mensagem clara para produto vendido */}
+        {isVendido && (
+          <div className="mt-6 p-5 bg-red-600/10 border border-red-600/30 rounded-2xl">
+            <p className="text-red-400 font-semibold text-lg">
+              Este modelo já foi vendido.
+            </p>
+            <p className="text-secondary mt-1">
+              Podemos trazer uma unidade igual ou similar sob encomenda. 
+              Entre em contato para mais informações e prazo de entrega.
+            </p>
           </div>
-        ))}
-      </div>
+        )}
 
-      {/* Descrição completa */}
-      <div className="mt-8">
-        <h2 className="text-xl font-semibold mb-2">Descrição</h2>
-        <p className="text-secondary leading-relaxed">{produto.descricao}</p>
-      </div>
+        {/* Tabela de especificações */}
+        <div className="card mt-8 p-6 grid grid-cols-2 sm:grid-cols-3 gap-y-5 gap-x-4">
+          {especificacoes.map(({ label, chave }) => (
+            <div key={chave}>
+              <p className="text-secondary text-xs uppercase tracking-wide">{label}</p>
+              <p className="font-medium mt-1">{produto[chave]}</p>
+            </div>
+          ))}
+        </div>
 
-      {/* Botão de interesse */}
-      <div className="mt-10">
-        <ButtonWhatsapp
-          mensagem={`Olá, tenho interesse no ${produto.nome} ${isVendido ? '(já foi vendido - quero solicitar uma unidade similar)' : ''}`}
-          texto={isVendido ? "Solicitar Unidade Similar" : "Tenho Interesse"}
-          className="btn-primary w-full sm:w-auto text-lg py-5 px-10"
-        />
-      </div>
-    </section>
+        {/* Descrição completa */}
+        <div className="mt-8">
+          <h2 className="text-xl font-semibold mb-2">Descrição</h2>
+          <p className="text-secondary leading-relaxed">{produto.descricao}</p>
+        </div>
+
+        {/* Botão de interesse */}
+        <div className="mt-10">
+          <ButtonWhatsapp
+            mensagem={`Olá, tenho interesse no ${produto.nome} ${isVendido ? '(já foi vendido - quero solicitar uma unidade similar)' : ''}`}
+            texto={isVendido ? "Solicitar Unidade Similar" : "Tenho Interesse"}
+            className="btn-primary w-full sm:w-auto text-lg py-5 px-10"
+          />
+        </div>
+      </section>
+    </>
   )
 }

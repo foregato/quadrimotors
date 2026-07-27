@@ -1,4 +1,5 @@
 import { Compass, Target, Heart } from 'lucide-react'
+import SEO from '../components/SEO'
 
 // Textos institucionais - edite os parágrafos e a lista de valores aqui
 const valores = [
@@ -9,39 +10,48 @@ const valores = [
 
 export default function Sobre() {
   return (
-    <section className="container-app pt-28 pb-20">
-      <img
-        src="/fundos/fundoprincipal.png"
-        alt="Fachada da Quadrimotors & Cia"
-        className="w-full aspect-video object-cover rounded-2xl"
+    <>
+      {/* Otimização de SEO para a página Sobre */}
+      <SEO 
+        title="Sobre Nós"
+        description="Conheça a história da Quadrimotors & Cia, nossa missão e valores. Referência em quadriciclos novos e seminovos em Campinas e região."
+        canonical="https://quadrimotorsecia.com.br/sobre"
       />
 
-      <div className="mt-10 max-w-3xl">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">Nossa história</h1>
-        <p className="text-secondary leading-relaxed">
-          A Quadrimotors & Cia nasceu de uma paixão de pai para filho pelo mundo dos quadriciclos. O que começou lá atrás, como um pequeno ponto de venda, cresceu e se transformou em uma grande referência no mercado de novos e seminovos, sempre batendo na tecla da qualidade e da confiança.
-        </p>
-      </div>
+      <section className="container-app pt-28 pb-20">
+        <img
+          src="/fundos/fundoprincipal.png"
+          alt="Fachada da Quadrimotors & Cia"
+          className="w-full aspect-video object-cover rounded-2xl"
+        />
 
-      <div className="grid md:grid-cols-2 gap-6 mt-10">
-        <div className="card p-8">
-          <h2 className="text-xl font-semibold mb-2">Missão</h2>
+        <div className="mt-10 max-w-3xl">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">Nossa história</h1>
           <p className="text-secondary leading-relaxed">
-            Conectar gerações e pessoas à liberdade e à emoção do off-road, oferecendo quadriciclos de alta qualidade com o atendimento próximo, confiável e parceiro que só uma empresa que nasceu de uma paixão de família pode proporcionar.
+            A Quadrimotors & Cia nasceu de uma paixão de pai para filho pelo mundo dos quadriciclos. O que começou lá atrás, como um pequeno ponto de venda, cresceu e se transformou em uma grande referência no mercado de novos e seminovos, sempre batendo na tecla da qualidade e da confiança.
           </p>
         </div>
-        <div className="card p-8">
-          <h2 className="text-xl font-semibold mb-2">Valores</h2>
-          <ul className="flex flex-col gap-3 mt-2">
-            {valores.map(({ icon: Icon, texto }, i) => (
-              <li key={i} className="flex items-start gap-3 text-secondary">
-                <Icon size={20} className="text-accent shrink-0 mt-0.5" />
-                {texto}
-              </li>
-            ))}
-          </ul>
+
+        <div className="grid md:grid-cols-2 gap-6 mt-10">
+          <div className="card p-8">
+            <h2 className="text-xl font-semibold mb-2">Missão</h2>
+            <p className="text-secondary leading-relaxed">
+              Conectar gerações e pessoas à liberdade e à emoção do off-road, oferecendo quadriciclos de alta qualidade com o atendimento próximo, confiável e parceiro que só uma empresa que nasceu de uma paixão de família pode proporcionar.
+            </p>
+          </div>
+          <div className="card p-8">
+            <h2 className="text-xl font-semibold mb-2">Valores</h2>
+            <ul className="flex flex-col gap-3 mt-2">
+              {valores.map(({ icon: Icon, texto }, i) => (
+                <li key={i} className="flex items-start gap-3 text-secondary">
+                  <Icon size={20} className="text-accent shrink-0 mt-0.5" />
+                  {texto}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   )
 }

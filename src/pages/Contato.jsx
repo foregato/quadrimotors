@@ -1,4 +1,5 @@
 import { Instagram, Phone, MapPin } from 'lucide-react'
+import SEO from '../components/SEO'
 import ButtonWhatsapp from '../components/ButtonWhatsapp'
 
 // Dados de contato da empresa - edite aqui (telefone, instagram e endereço)
@@ -10,43 +11,52 @@ const contatos = [
 
 export default function Contato() {
   return (
-    <section className="container-app pt-28 pb-32">
-      <h1 className="text-3xl md:text-4xl font-bold mb-2">Contato</h1>
-      <p className="text-secondary mb-10">Fale com a gente pelo canal que preferir.</p>
+    <>
+      {/* Configuração de SEO da página Contato */}
+      <SEO 
+        title="Contato e Localização"
+        description="Entre em contato com a Quadrimotors & Cia em Campinas, SP. Atendimento por WhatsApp, telefone ou visite nossa loja na Rua Cairi, 213."
+        canonical="https://quadrimotorsecia.com.br/contato"
+      />
 
-      <div className="grid md:grid-cols-3 gap-6">
-        {contatos.map(({ icon: Icon, titulo, valor, href }) => (
-          <div key={titulo} className="card p-6 flex items-center gap-4">
-            <div className="bg-accent/10 p-3 rounded-xl">
-              <Icon size={24} className="text-accent" />
+      <section className="container-app pt-28 pb-32">
+        <h1 className="text-3xl md:text-4xl font-bold mb-2">Contato</h1>
+        <p className="text-secondary mb-10">Fale com a gente pelo canal que preferir.</p>
+
+        <div className="grid md:grid-cols-3 gap-6">
+          {contatos.map(({ icon: Icon, titulo, valor, href }) => (
+            <div key={titulo} className="card p-6 flex items-center gap-4">
+              <div className="bg-accent/10 p-3 rounded-xl">
+                <Icon size={24} className="text-accent" />
+              </div>
+              <div>
+                <p className="text-secondary text-sm">{titulo}</p>
+                {href ? (
+                  <a href={href} target="_blank" rel="noopener noreferrer" className="font-medium hover:text-accent transition duration-300">
+                    {valor}
+                  </a>
+                ) : (
+                  <p className="font-medium">{valor}</p>
+                )}
+              </div>
             </div>
-            <div>
-              <p className="text-secondary text-sm">{titulo}</p>
-              {href ? (
-                <a href={href} target="_blank" rel="noopener noreferrer" className="font-medium hover:text-accent transition duration-300">
-                  {valor}
-                </a>
-              ) : (
-                <p className="font-medium">{valor}</p>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
 
-      <div className="mt-8">
-        <ButtonWhatsapp texto="Chamar no WhatsApp" />
-      </div>
+        <div className="mt-8">
+          <ButtonWhatsapp texto="Chamar no WhatsApp" />
+        </div>
 
-      {/* Mapa Google - troque o endereço na query do "q=" abaixo */}
-      <div className="mt-12 rounded-2xl overflow-hidden aspect-video">
-  <iframe
-    title="Localização Quadrimotors & Cia"
-    className="w-full h-full border-0"
-    loading="lazy"
-    src="https://www.google.com/maps?q=Rua+Cairi,+213,+Vila+Aeroporto,+Campinas,+SP&output=embed"
-  />
-</div>
-    </section>
+        {/* Mapa Google - troque o endereço na query do "q=" abaixo */}
+        <div className="mt-12 rounded-2xl overflow-hidden aspect-video">
+          <iframe
+            title="Localização Quadrimotors & Cia"
+            className="w-full h-full border-0"
+            loading="lazy"
+            src="https://www.google.com/maps?q=Rua+Cairi,+213,+Vila+Aeroporto,+Campinas,+SP&output=embed"
+          />
+        </div>
+      </section>
+    </>
   )
 }

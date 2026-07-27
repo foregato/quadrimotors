@@ -1,0 +1,12 @@
+# Define o cabeçalho UTF-8 por padrão
+AddDefaultCharset UTF-8
+
+# Garante que o React Router funcione na hospedagem (evita erro 404 ao recarregar a página)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
