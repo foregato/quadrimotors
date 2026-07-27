@@ -5,7 +5,7 @@ import ButtonWhatsapp from '../components/ButtonWhatsapp'
 // Dados de contato da empresa - edite aqui (telefone, instagram e endereço)
 const contatos = [
   { icon: Phone, titulo: 'Telefone', valor: '(19) 99407-5246', href: 'tel:+5519994075246' },
-  { icon: Instagram, titulo: 'Instagram', valor: '@quadrimotors', href: 'https://instagram.com' },
+  { icon: Instagram, titulo: 'Instagram', valor: '@quadrimotors', href: 'https://www.instagram.com/quadrimotors/' },
   { icon: MapPin, titulo: 'Endereço', valor: 'Rua Cairi, 213 - Vila Aeroporto - Campinas, SP', href: null },
 ]
 
