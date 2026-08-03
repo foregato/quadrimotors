@@ -1,5 +1,7 @@
 import { Instagram, Phone, MapPin } from 'lucide-react'
 import logo from '../assets/logopebsf.png'
+import { POLITICA_PRIVACIDADE_PDF } from './CookieBanner'
+import { DEVELOPER_NAME, DEVELOPER_URL } from '../config/developer'
 
 // Rodapé exibido em todas as páginas - edite os dados de contato aqui
 export default function Footer() {
@@ -20,9 +22,37 @@ export default function Footer() {
           </span>
         </div>
       </div>
-      <p className="text-center text-xs text-secondary/60 pb-6">
-        © {new Date().getFullYear()} Quadrimotors & Cia. Todos os direitos reservados.
-      </p>
+      <div className="flex flex-col items-center gap-2 pb-6">
+        {/* Abre o PDF da Política de Privacidade em nova aba (coloque o arquivo em /public) */}
+        <a
+          href={POLITICA_PRIVACIDADE_PDF}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-secondary/80 hover:text-accent transition duration-300 underline underline-offset-2"
+        >
+          Política de Privacidade
+        </a>
+        <p className="text-center text-xs text-secondary/60">
+          © {new Date().getFullYear()} Quadrimotors & Cia. Todos os direitos reservados.
+        </p>
+
+        {/* Crédito do desenvolvedor - deve permanecer em todas as páginas */}
+        <p className="text-center text-xs text-secondary/40">
+          Desenvolvido por{''}
+          {DEVELOPER_URL ? (
+            <a
+              href={DEVELOPER_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-accent transition duration-300 underline underline-offset-2"
+            >
+              {DEVELOPER_NAME}
+            </a>
+          ) : (
+            DEVELOPER_NAME
+          )}
+        </p>
+      </div>
     </footer>
   )
 }
