@@ -4,6 +4,7 @@ import { HelmetProvider } from 'react-helmet-async'
 // Importação dos componentes fixos
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import CookieBanner from './components/CookieBanner'
 
 // Importação das páginas
 import Home from './pages/Home'
@@ -34,6 +35,7 @@ export default function App() {
 
         {/* 4. O Footer fica fixo no rodapé de todas as páginas */}
         <Footer />
+        <CookieBanner />
       </div>
     </HelmetProvider>
   )
